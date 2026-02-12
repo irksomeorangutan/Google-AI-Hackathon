@@ -1,0 +1,11 @@
+{"timestamp":"2026-02-12T09:10:21Z","service":"auth-service","level":"INFO","message":"Userlogin successful","user":"alex","ip":"10.0.0.12"}
+{"timestamp":"2026-02-12T09:11:02Z","service":"payment-service","level":"DEBUG","message":"Connectingto database","db_host":"db.internal.local","db_user":"app_user","db_password":"SuperSecret123!"}
+{"timestamp":"2026-02-12T09:12:45Z","service":"api-gateway","level":"INFO","message":"Generatedauthtokenforsession","auth_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbGV4IiwiYWRtaW4iOnRydWV9.sflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"}
+{"timestamp":"2026-02GE","service":"cache-service","level":"WARN","message":"Redisconnectionfailed","redis_host":"redis.internal.local","redis_password":"redisProd@2026"}
+{"timestamp":"2026-02-12T09:15:33Z","service":"notification-service","level":"DEBUG","message":"SMTPconfigloaded","smtp_user":"noreply@example.com","smtp_pass":"V2VsY29tZVRvUHJvZDEyMw=="}
+{"timestamp":"2026-02-12T09:16:54Z","service":"analytics","level":"INFO","message":"Batchprocessingcomplete","records_processed":1024}
+{"timestamp":"2026-02-12T09:17:20Z","service":"admin-service","level":"ERROR","message":"Hardcodedfallbackcredentialsused","username":"admin","password":"Admin@12345"}
+{"timestamp":"2026-02-12T09:18:02Z","service":"integration-service","level":"INFO","message":"ThirdpartyAPIconfigured","api_key":"sk_test_51NqzP8abcXYZ1234567890abcdef"}
+{"timestamp":"2026-02-12T09:19:47Z","service":"internal-tool","level":"DEBUG","message":"Temporarydebugtoken","debug_token":"QWxleERldkF1dGhUb2tlbjIwMjY="}
+{"timestamp":"2026-02-12T09:20:15Z","service":"auth-service","level":"INFO","message":"Userrequestedpasswordresetemail","note":"thiscontainsthewordpasswordbutisnotasecret"}
+{"timestamp":"2026-02-12T09:21:00Z","service":"test-service","level":"DEBUG","message":"Testingconfig","password":"dummypassword","passwrd":"notasecret","info":"sampleconfigvalue"}
